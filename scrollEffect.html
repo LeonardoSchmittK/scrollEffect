@@ -1,0 +1,78 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll bar</title>
+       <style>
+           #header{
+               position: fixed;
+               font-size:40px;
+               font-family: sans-serif;
+               text-shadow:1px 1px 12px rgba(0, 0, 0, 0.253);
+           }
+           #bar{
+               
+              position: relative;
+               width: 500px;
+               height:9px;
+               background-color:rgba(128, 128, 128, 0.507);
+               margin-top: -100px;
+           }
+           #bar-load{
+            width: 0%;
+               height:9px;
+               background-color:rgba(0, 255, 157, 0.507);
+           }
+           #content{
+               text-align: justify;
+               font-size:27px;
+                font-family:sans-serif;
+                width:1000px;
+                position:absolute;
+                left:580px;
+                top:150px;
+                letter-spacing: 1px;
+                font-weight: 2px;
+                text-shadow:1px 1px 12px rgba(0, 0, 0, 0.253);
+           } 
+
+           ::-webkit-scrollbar-track{
+           
+           }
+         ::-webkit-scrollbar-thumb{
+            background: linear-gradient(rgb(255, 255, 255),rgba(0, 255, 157, 0.945));
+         border-radius:20px; 
+        }
+         ::-webkit-scrollbar{
+              width:20px;
+             
+         }
+       </style>
+</head>
+<body>
+    <div id='header'>
+        <h1>Scroll Effect</h1>              <!-- A simple identifier tittle -->
+        <div id='bar'>                      <!-- the region when the load happens-->
+            <div id='bar-load'></div>       <!-- the load in itself -->
+        </div>
+    </div> 
+
+    <div id='content'>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>endis? Dicta libero culpa rem possimus corporis nisi dignissimendis? Dicta libero culpa rem possimus corporis nisi dignissimendis? Dicta libero culpa rem possimus corporis nisi dignissimendis? Dicta libero culpa rem possimus corporis nisi dignissimendis? Dicta libero culpa rem possimus corporis nisi dignissimendis? Dicta libero culpa rem possimus corporis nisi dignissimendis? Dicta libero culpa rem possimus corporis nisi dignissimendis? Dicta libero culpa rem possimus corporis nisi dignissimendis? Dicta libero culpa rem possimus corporis nisi dignissimendis? Dicta libero culpa rem possimus corporis nisi dignissimLorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem poamet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem poamet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem poamet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem poamet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem poamet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem poamet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem poamet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem possimus corporis nisi dignissimos ipsa natus illum. </p> <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime saepe perferendis repellendus quas dicta, aperiam fugiat! Eius, libero reiciendis? Dicta libero culpa rem po</p>
+        
+    </div>
+        <script>
+           window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("bar-load").style.width = scrolled + "%";
+}
+
+        </script>
+</body>
+</html>
